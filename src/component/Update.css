@@ -1,0 +1,98 @@
+body{
+    background: url(https://wallpaperaccess.com/full/1288076.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.back-logout{
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    display: flex;
+    gap: 20px;
+}
+.back,.Logout,.password-change{
+    background-color: white;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.updateAccount-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+    
+}
+.from{
+    width: 500px;
+    height: auto;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.8);
+    line-height: 2.5;
+}
+.updatename{
+width: 100%;
+padding: 8px 10px;
+border-radius:6px ;
+
+}
+#update-account,.passBtn{
+    padding: 10px 18px;
+    background-color: white;
+    margin-top: 2rem;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.updateAccount-text{
+    font-size: 25px;
+}
+.password-from{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.password-from.show{
+    display: flex;
+}
+#passwordForm{
+    width: 500px;
+    height: auto;
+    padding: 20px 40px;
+    border: 1px solid;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    line-height: 2.5;
+
+}
+.pass-input{
+    width: 100%;
+    padding: 8px;
+    border-radius:4px ;
+}
+.form{
+    position: relative;
+}
+.close-1{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 6px 12px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
