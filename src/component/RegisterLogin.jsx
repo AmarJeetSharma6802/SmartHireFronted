@@ -127,11 +127,11 @@ function RegisterLogin() {
                             {loginError && <h3 style={{ color: 'red' }}>{loginError}</h3>}
                             <div className="label-login">
                                 <label>Email</label>
-                                <input type="email" placeholder="email" id='input' value={loginEmail} onChange={(e) => setLoginEmail(e.target.value)} className='loginInput' />
+                                <input type="email" placeholder="email" id='input-email' value={loginEmail} onChange={(e) => setLoginEmail(e.target.value)} className='loginInput' />
                             </div>
                             <div className="label-login">
                                 <label>Password</label>
-                                <input type="password" placeholder="password" id='input' value={loginPassword} onChange={(e) => setLoginPassword(e.target.value)} className='loginInput' />
+                                <input type="password" placeholder="password-pass" id='input' value={loginPassword} onChange={(e) => setLoginPassword(e.target.value)} className='loginInput' />
                             </div>
                             <button type='submit' id='loginSubmit'>Login</button>
                         </form>
